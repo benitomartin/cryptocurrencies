@@ -1,4 +1,4 @@
 # **CRYPTOCURRENCIES TIME SERIES** :chart_with_upwards_trend:
 
-Analysis of cryptocurrencies and comparison of several models: ARIMA, XGBoost, LSTU, Profet and Gradient Boosting. 
+Analysis of cryptocurrencies and comparison of several models: ARIMA, XGBoost, LSTM, Profet and Gradient Boosting. 
 
