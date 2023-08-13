@@ -80,7 +80,7 @@ To ensure a comprehensive and accurate dataset, the following actions were taken
 - Identification and handling of missing data points and their corresponding values
 - Utilization of interpolation to fill in the gaps with the mean values
 
-Upon obtaining the complete dataset (saved under `BTCUSDT_final_clean.csv`), the primary focus shifted towards the analysis of the closing prices. It was noted that in both 2020 and 2022, the cryptocurrency market experienced two significant crashes attributed to the impact of the COVID pandemic and the collapse of FTX exchange.
+Upon obtaining the complete dataset (saved under `BTCUSDT_final_clean.csv`), the primary focus shifted towards the analysis of the closing prices. It was noted that in both 2020 and 2022, the cryptocurrency market experienced two significant **crashes** attributed to the impact of the COVID pandemic and the collapse of FTX exchange.
 
 
 <p align="center">
@@ -99,13 +99,13 @@ Upon obtaining the complete dataset (saved under `BTCUSDT_final_clean.csv`), the
 <img align="center"src="./EDA_notebooks/images/returns_crash.png">
 </p>
 
-Another insightful indicator employed was the lag plot. The visuals illustrated that lags of 1 and 2 days exhibited minimal noise, suggesting the potential for time series resampling. Subsequently, a 1-day resampling interval was chosen for further exploration.
+Another insightful indicator employed was the **lag plot**. The visuals illustrated that lags of 1 and 2 days exhibited minimal noise, suggesting the potential for time series resampling. Subsequently, a 1-day resampling interval was chosen for further exploration.
 
 <p align="center">
 <img align="center"src="./EDA_notebooks/images/lag.png">
 </p>
 
-Among the models examined later in the analysis, ARIMA was a key focus. This model necessitated several steps including time series decomposition, autocorrelation assessment (ACF and PACF), and Stationarity checks (KPSS and ADF). The findings revealed the absence of seasonality in the series, with both p and q values being 1 each, and a differencing level of 1 was employed to attain stationarity. Intriguingly, the p, q, and d values determined by the auto_arima method were (1,1,0).
+Among the models examined later in the analysis, **ARIMA** was a key focus. This model necessitated several steps including time series **decomposition**, **autocorrelation** assessment (ACF and PACF), and **stationarity** checks (KPSS and ADF). The findings revealed the absence of seasonality in the series, with both p and q values being 1 each, and a differencing level of 1 was employed to attain stationarity. Intriguingly, the p, q, and d values determined by the auto_arima method were (1,1,0).
 
 <p align="center">
 <img align="center"src="./EDA_notebooks/images/seasonality.png">
