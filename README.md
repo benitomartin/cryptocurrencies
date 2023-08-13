@@ -6,7 +6,6 @@ This repository hosts a collection of notebooks featuring an in-depth analysis o
 - XGBoost
 - LSTM
 - Prophet
-- Gradient Boosting
 
 ## Cryptocurrencies Comparison
 
@@ -36,7 +35,6 @@ In the pursuit of enhanced insights, **returns** were computed, providing a meas
 
 Notably, a pattern emerges revealing varying **degrees of correlation** between different cryptocurrencies. BCH, ETH, EOS, and LTC exhibit a strong positive correlation, implying that when one of these cryptocurrencies experiences an increase, the others tend to follow suit. Conversely, BSV displays a weaker correlation with BNB and XRP.
 
-</p>
 
 <p align="center">
 <img align="center" src="./EDA_notebooks/images/heatmap.png"> 
@@ -47,7 +45,6 @@ The application of a **moving average**, also known as a rolling average, helped
 
 From the plotted chart, it is discernible that in May of 2021, the price dipped below the 50-day moving average, signifying a **downward trend**. Conversely, in August 2021, the price surged above the moving average, indicating an **upward trend**.
 
-</p>
 
 <p align="center">
 <img align="center"src="./EDA_notebooks/images/ma20_100.png"> 
@@ -56,7 +53,6 @@ From the plotted chart, it is discernible that in May of 2021, the price dipped 
 
 Further observations reveal that around May of 2021, the 20-day moving average crossed below the 100-day moving average, signaling a shift towards a downward trend and serving as a **sell signal**. Conversely, by August 2021, the 20-day moving average crossed above the 100-day moving average, marking an upward trend and presenting a **buy signal**.
 
-</p>
 
 <p align="center">
 <img align="center"  src="./EDA_notebooks/images/ma50.png"> 
@@ -79,3 +75,34 @@ The subsequent stage of analysis focused on an in-depth exploratory data analysi
 - **count**: Number of trades occurring during the specified period
 - **taker_buy_volume**: Volume of the quote asset bought by market takers during the period
 - **taker_buy_quote_volume**: Volume of the base asset bought by market takers during the period
+
+
+
+<p align="center">
+<img align="center"src="./EDA_notebooks/images/btc_close.png">
+</p>
+
+<p align="center">
+<img align="center"src="./EDA_notebooks/images/crash_2020.png">
+</p>
+
+<p align="center">
+<img align="center"src="./EDA_notebooks/images/crash_2022.png">
+</p>
+
+<p align="center">
+<img align="center"src="./EDA_notebooks/images/lag.png">
+</p>
+
+<p align="center">
+<img align="center"src="./EDA_notebooks/images/seasonality.png">
+</p>
+
+<p align="center">
+<img align="center"src="./EDA_notebooks/images/differencing.png">
+</p>
+
+
+<p align="center">
+<img align="center"src="./EDA_notebooks/images/returns_crash.png">
+</p>
