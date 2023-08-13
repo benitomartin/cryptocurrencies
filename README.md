@@ -1,6 +1,6 @@
 # **CRYPTOCURRENCIES TIME SERIES** :chart_with_upwards_trend:
 
-This repository contains some notebooks with an analysis of 10 cryptocurrencies and a comparison of several models' predictions for BTC. The following models were compared:
+This repository hosts a collection of notebooks featuring an in-depth analysis of ten cryptocurrencies, along with a comparative study of predictions made by various models specifically for BTC. The following models were meticulously evaluated:
 
 - ARIMA
 - XGBoost
@@ -8,34 +8,33 @@ This repository contains some notebooks with an analysis of 10 cryptocurrencies 
 - Prophet
 - Gradient Boosting
 
-
 ## Cryptocurrencies Comparison
 
 In the first stage, a comparison of 10 cryptocurrencies was carried out. For that, data from `yfinance` from January 2019 to June 2023 were downloaded and the following features were extracted:
 
-- **Date**: Date of the trade
-- **Open**: The price at which the stock began
-- **High**: Highest price during that trading day
-- **Low**: Lowest price during that trading day
-- **Close**: The price at which the stock ended
-- **Adj Close**: The closing price after adjustments for splits, right offerings, and dividends, to make prices comparable over time
-- **Volume**: Total stocks traded that day
+- **Date**: Trade date
+- **Open**: Opening stock price
+- **High**: Peak price during the trading day
+- **Low**: Lowest price during the trading day
+- **Close**: Closing stock price
+- **Adj Close**: Adjusted closing price, accounting for splits, offerings, and dividends for accurate historical comparison
+- **Volume**: Total trade volume for the day
 
-Adj Close offers an accurate comparison between cryptocurrencies and the values were plotted in several subplots.
+The utilization of Adj Close allows for meaningful comparisons between cryptocurrencies, and these values are thoughtfully visualized through multiple subplots.
 
 <p align="center">
 <img align="center" src="./EDA_notebooks/images/10_currencies.png"> 
 
 </p>
 
-However, in order to get a better insight the **returns** were calculated as it represents the money made or lost on an investment over some period of time and additionally, the cumulative return to express the total change in the price of a cryptocurrency over time.
+In the pursuit of enhanced insights, **returns** profitability over a specific period. Furthermore, cumulative returns were calculated to express the overall price change of a cryptocurrency over time.
 
 <p align="center">
 <img align="center" src="./EDA_notebooks/images/cum_returns.png"> 
 
 </p>
 
-It can be also appreciated that some cryptocurrencies are more **correlated** to each other than others. We can see that BCH, ETH, EOS, and LTC are highly correlated. That means for example that when BCH goes up, ETH also goes up, and when Bitcoin falls, ETH also falls. On the other hand, BSV is less correlated to BNB and XRP.
+Notably, a pattern emerges revealing varying **degrees of correlation** between different cryptocurrencies. BCH, ETH, EOS, and LTC exhibit a strong positive correlation, implying that when one of these cryptocurrencies experiences an increase, the others tend to follow suit. Conversely, BSV displays a weaker correlation with BNB and XRP.
 
 </p>
 
@@ -44,9 +43,9 @@ It can be also appreciated that some cryptocurrencies are more **correlated** to
 
 </p>
 
-**Moving average** (rolling average) was used to smooth out "noise", which are random short-term fluctuations in price, to identify long-term trends or cycles. For example, a 7-day moving average reflects short-term trends in the stock market, whereas a 100-day rolling average indicates major trends in the stock market. Here the **arithmetic** mean was calculated.
+The application of a **moving average**, also known as a rolling average, helped in smoothing out short-term price fluctuations to identify longer-term trends or cycles. For instance, a 7-day moving average captures short-term trends, while a 100-day rolling average highlights more substantial trends. The use of arithmetic mean was adopted in this context.
 
-We can observe from the chart that in May of 2021, the price crosses below the 50-day MA, which indicates a **downward trend**, and in August 2021, the price crosses above the MA, which shows an **upward trend**.
+From the plotted chart, it is discernible that in May of 2021, the price dipped below the 50-day moving average, signifying a **downward trend**. Conversely, in August 2021, the price surged above the moving average, indicating an **upward trend**.
 
 </p>
 
@@ -55,7 +54,7 @@ We can observe from the chart that in May of 2021, the price crosses below the 5
 
 </p>
 
-We can also observe that around May of 2021, the 20-day MA crosses below the 100-day MA. It indicates that the trend is shifting **downwards**, and it’s a **sell signal**. Towards August 2021, the 20-day MA crosses above the 100-day MA. It shows that the trend is shifting **upwards**, and it’s a **buy signal**.
+Further observations reveal that around May of 2021, the 20-day moving average crossed below the 100-day moving average, signaling a shift towards a downward trend and serving as a **sell signal**. Conversely, by August 2021, the 20-day moving average crossed above the 100-day moving average, marking an upward trend and presenting a **buy signal**.
 
 </p>
 
@@ -67,30 +66,16 @@ We can also observe that around May of 2021, the 20-day MA crosses below the 100
 
 ## BTC Analysis
 
-On a second stage, a detail EDA of BTC was carried out. This time, data were downloaded from Binance from January 2020 to May 2023 as Binance contains more data compared to `yfinance`:
+The subsequent stage of analysis focused on an in-depth exploratory data analysis (EDA) of BTC. This time frame involved data sourced from Binance, spanning from January 2020 to May 2023. The data attributes from Binance include:
 
-Here's a breakdown of each feature from Binance:
-
-- **open_time**: This represents the opening time of a specific period
-
-- **open**: This refers to the opening price of the trading instrument at the given period.
-
-- **high**: This represents the highest price reached by the trading instrument during the specified period.
-
-- **low**: This denotes the lowest price reached by the trading instrument during the specified period.
-
-- **close**: This indicates the closing price of the trading instrument at the given period.
-
-- **volume**: This refers to the total volume, typically the quantity of the trading instrument, traded during the specified period.
-
-- **close_time**: This represents the closing time of the specific period in Unix time format.
-
-- **quote_volume**: This refers to the total volume in terms of the quote asset. The quote asset is the asset used to determine the value of the trading instrument.
-
-- **count**: This represents the number of trades that occurred during the specified period.
-
-- **taker_buy_volume**: This denotes the volume of the quote asset bought by takers (market takers) during the specified period.
-
-- **taker_buy_quote_volume**: This represents the volume of the base asset bought by takers (market takers) during the specified period.
-
-
+- **open_time**: Opening time of the specified period
+- **open**: Opening price of the trading instrument for the given period
+- **high**: Highest price attained by the trading instrument during the specified period
+- **low****: Lowest price reached by the trading instrument during the specified period
+- **close**: Closing price of the trading instrument for the given period
+- **volume**: Total trading volume, representing the quantity of the trading instrument, during the specified period
+- **close_time**: Closing time of the specific period
+- **quote_volume**: Total volume in terms of the quote asset, which determines the trading instrument's value
+- **count**: Number of trades occurring during the specified period
+- **taker_buy_volume**: Volume of the quote asset bought by market takers during the period
+- **taker_buy_quote_volume**: Volume of the base asset bought by market takers during the period
