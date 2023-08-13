@@ -59,10 +59,9 @@ Further observations reveal that around May of 2021, the 20-day moving average c
 
 </p>
 
-
 ## BTC Analysis
 
-The subsequent stage of analysis focused on an in-depth exploratory data analysis (EDA) of BTC. This time frame involved data sourced from Binance, spanning from January 2020 to May 2023. The data attributes from Binance include:
+The subsequent phase of analysis delved into an in-depth exploratory data analysis (EDA) of BTC, aiming to uncover valuable insights. This analysis period encompassed data obtained from Binance, spanning from January 2020 to May 2023, as Binance provides a more comprehensive dataset. The dataset from Binance included various data attributes such as:
 
 - **open_time**: Opening time of the specified period
 - **open**: Opening price of the trading instrument for the given period
@@ -76,6 +75,12 @@ The subsequent stage of analysis focused on an in-depth exploratory data analysi
 - **taker_buy_volume**: Volume of the quote asset bought by market takers during the period
 - **taker_buy_quote_volume**: Volume of the base asset bought by market takers during the period
 
+To ensure a comprehensive and accurate dataset, the following actions were taken:
+
+- Identification and handling of missing data points and their corresponding values
+- Utilization of interpolation to fill in the gaps with the mean values
+
+Upon obtaining the complete dataset (saved under `BTCUSDT_final_clean.csv`), the primary focus shifted towards the analysis of the closing prices. It was noted that in both 2020 and 2022, the cryptocurrency market experienced two significant crashes attributed to the impact of the COVID pandemic and the collapse of FTX exchange.
 
 
 <p align="center">
@@ -91,8 +96,16 @@ The subsequent stage of analysis focused on an in-depth exploratory data analysi
 </p>
 
 <p align="center">
+<img align="center"src="./EDA_notebooks/images/returns_crash.png">
+</p>
+
+Another insightful indicator employed was the lag plot. The visuals illustrated that lags of 1 and 2 days exhibited minimal noise, suggesting the potential for time series resampling. Subsequently, a 1-day resampling interval was chosen for further exploration.
+
+<p align="center">
 <img align="center"src="./EDA_notebooks/images/lag.png">
 </p>
+
+Among the models examined later in the analysis, ARIMA was a key focus. This model necessitated several steps including time series decomposition, autocorrelation assessment (ACF and PACF), and Stationarity checks (KPSS and ADF). The findings revealed the absence of seasonality in the series, with both p and q values being 1 each, and a differencing level of 1 was employed to attain stationarity. Intriguingly, the p, q, and d values determined by the auto_arima method were (1,1,0).
 
 <p align="center">
 <img align="center"src="./EDA_notebooks/images/seasonality.png">
@@ -100,9 +113,4 @@ The subsequent stage of analysis focused on an in-depth exploratory data analysi
 
 <p align="center">
 <img align="center"src="./EDA_notebooks/images/differencing.png">
-</p>
-
-
-<p align="center">
-<img align="center"src="./EDA_notebooks/images/returns_crash.png">
 </p>
