@@ -7,7 +7,7 @@ This repository hosts a collection of notebooks featuring an in-depth analysis o
 - LSTM GRU
 - Prophet
 
-## Cryptocurrencies Comparison
+## :bar_chart: Cryptocurrencies Comparison
 
 In the first stage, a comparison of 10 cryptocurrencies was carried out. For that, data from `yfinance` from January 2019 to June 2023 were downloaded and the following features were extracted:
 
@@ -59,7 +59,7 @@ Further observations reveal that around May of 2021, the 20-day moving average c
 
 </p>
 
-## BTC Analysis
+## :compass: BTC Analysis
 
 The subsequent phase of analysis delved into an in-depth exploratory data analysis (EDA) of BTC, aiming to uncover valuable insights. This analysis period encompassed data obtained from Binance, spanning from January 2020 to May 2023, as Binance provides a more comprehensive dataset. The dataset from Binance included various data attributes such as:
 
@@ -115,7 +115,7 @@ Among the models examined later in the analysis, **ARIMA** was a key focus. This
 <img align="center"src="./EDA_notebooks/images/differencing.png">
 </p>
 
-## Modeling
+## :heavy_dollar_sign: Modeling
 
 Thorough evaluations were conducted on the following models:
 
