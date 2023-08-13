@@ -132,8 +132,8 @@ In general all models achieve very good results and the actual vs. predicted pri
 <img align="center"src="./models_notebooks/images/model.png">
 </p>
 
-| Left |  Center  | Right |
-|:-----|:--------:|------:|
-| L0   | **bold** | $1600 |
-| L1   |  `code`  |   $12 |
-| L2   | _italic_ |    $1 |
+| Metric |  ARIMA   |  LSTM  | Prophet | XGBoost |
+|:-------|:--------:|-------:|--------:|--------:|
+| MAE    |   77     |  153   |   125   |  709    |
+| MSE    |   131    |  250   |   157   |  1174   |
+| R2     |  98.86   | 99.69  |  99.88  |  93.08  |
