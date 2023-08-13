@@ -43,9 +43,9 @@ It can be also appreciated that some cryptocurrencies are more correlated to eac
 
 </p>
 
-Moving average (rolling average) was used to smooth out "noise", which are random short-term fluctuations in price, to identify long-term trends or cycles. For example, a 7-day moving average reflects short-term trends in the stock market, whereas a 100-day rolling average indicates major trends in the stock market. Here the arithmetic mean was calculated.
+Moving average (rolling average) was used to smooth out "noise", which are random short-term fluctuations in price, to identify long-term trends or cycles. For example, a 7-day moving average reflects short-term trends in the stock market, whereas a 100-day rolling average indicates major trends in the stock market. Here the **arithmetic** mean was calculated.
 
-We can observe from the chart that in May of 2021, the price crosses below the 50-day MA, which indicates a downward trend, and in August 2021, the price crosses above the MA, which shows an upward trend.
+We can observe from the chart that in May of 2021, the price crosses below the 50-day MA, which indicates a **downward trend**, and in August 2021, the price crosses above the MA, which shows an **upward trend**.
 
 </p>
 
@@ -54,7 +54,7 @@ We can observe from the chart that in May of 2021, the price crosses below the 5
 
 </p>
 
-We can also observe that around May of 2021, the 20-day MA crosses below the 100-day MA. It indicates that the trend is shifting downwards, and it’s a sell signal. Towards August 2021, the 20-day MA crosses above the 100-day MA. It shows that the trend is shifting upwards, and it’s a buy signal.
+We can also observe that around May of 2021, the 20-day MA crosses below the 100-day MA. It indicates that the trend is shifting **downwards**, and it’s a **sell signal**. Towards August 2021, the 20-day MA crosses above the 100-day MA. It shows that the trend is shifting **upwards**, and it’s a **buy signal**.
 
 </p>
 
@@ -64,4 +64,5 @@ We can also observe that around May of 2021, the 20-day MA crosses below the 100
 </p>
 
 
+## Cryptocurrencies Comparison
 
