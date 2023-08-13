@@ -4,7 +4,7 @@ This repository hosts a collection of notebooks featuring an in-depth analysis o
 
 - ARIMA
 - XGBoost
-- LSTM
+- LSTM GRU
 - Prophet
 
 ## Cryptocurrencies Comparison
@@ -116,3 +116,18 @@ Among the models examined later in the analysis, **ARIMA** was a key focus. This
 </p>
 
 After this EDA the modeling phase started wuth the clean dataset.
+
+## Modeling
+
+The following models were meticulously evaluated:
+
+- ARIMA
+- XGBoost
+- LSTM GRU
+- Prophet
+
+In general all models achieve very good results and the actual vs. predicted price curve is similar for all models (see below the one of LSTM GRU)
+
+<p align="center">
+<img align="center"src="./models_notebooks/images/model.png">
+</p>
