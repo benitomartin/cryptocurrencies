@@ -130,6 +130,10 @@ Overall, all models demonstrated impressive performance, yielding highly favorab
 <img align="center"src="./models_notebooks/images/model.png">
 </p>
 
+<p align="center">
+<img align="center"src="./models_notebooks/images/train_val.png">
+</p>
+
 A concise summary of the achieved results is presented in the table below, showcasing key metrics for each model. It is noteworthy that while Prophet achieved the highest R-squared (R2) value, indicating strong goodness-of-fit, ARIMA exhibited the best Mean Absolute Error (MAE) and Mean Squared Error (MSE) values, highlighting its accuracy in prediction.
 
 
@@ -141,4 +145,3 @@ A concise summary of the achieved results is presented in the table below, showc
 
 
 These findings underscore the effectiveness of the models in capturing BTC price trends, with each model showcasing unique strengths in specific metrics. This comprehensive evaluation contributes to a robust understanding of the models' capabilities and assists in informed decision-making.
-
