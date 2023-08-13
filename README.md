@@ -131,3 +131,9 @@ In general all models achieve very good results and the actual vs. predicted pri
 <p align="center">
 <img align="center"src="./models_notebooks/images/model.png">
 </p>
+
+| Left |  Center  | Right |
+|:-----|:--------:|------:|
+| L0   | **bold** | $1600 |
+| L1   |  `code`  |   $12 |
+| L2   | _italic_ |    $1 |
