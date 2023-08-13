@@ -64,5 +64,32 @@ We can also observe that around May of 2021, the 20-day MA crosses below the 100
 </p>
 
 
-## Cryptocurrencies Comparison
+## BTC Analysis
+
+On a second stage a detail EDA of BTC was carried out. This time, data were downloaded from Binance from January 2020 to May 2023. Binance contains more data compared to `yfinance`:
+
+Here's a breakdown of each feature from Binance:
+
+- **open_time**: This represents the opening time of a specific period
+
+- **open**: This refers to the opening price of the trading instrument at the given period.
+
+- **high**: This represents the highest price reached by the trading instrument during the specified period.
+
+- **low**: This denotes the lowest price reached by the trading instrument during the specified period.
+
+- **close**: This indicates the closing price of the trading instrument at the given period.
+
+- **volume**: This refers to the total volume, typically the quantity of the trading instrument, traded during the specified period.
+
+- **close_time**: This represents the closing time of the specific period in Unix time format.
+
+- **quote_volume**: This refers to the total volume in terms of the quote asset. The quote asset is the asset used to determine the value of the trading instrument.
+
+- **count**: This represents the number of trades that occurred during the specified period.
+
+- **taker_buy_volume**: This denotes the volume of the quote asset bought by takers (market takers) during the specified period.
+
+- **taker_buy_quote_volume**: This represents the volume of the base asset bought by takers (market takers) during the specified period.
+
 
