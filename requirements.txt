@@ -1,0 +1,9 @@
+pmdarima
+pandas 
+matplotlib
+plotly
+statsmodels
+ipykernel
+seaborn
+kaleido
+nbformat>=4.2.0
