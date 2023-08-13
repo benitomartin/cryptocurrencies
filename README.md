@@ -115,25 +115,30 @@ Among the models examined later in the analysis, **ARIMA** was a key focus. This
 <img align="center"src="./EDA_notebooks/images/differencing.png">
 </p>
 
-After this EDA the modeling phase started wuth the clean dataset.
-
 ## Modeling
 
-The following models were meticulously evaluated:
+Thorough evaluations were conducted on the following models:
 
 - ARIMA
 - XGBoost
 - LSTM GRU
 - Prophet
 
-In general all models achieve very good results and the actual vs. predicted price curve is similar for all models (see below the one of LSTM GRU)
+Overall, all models demonstrated impressive performance, yielding highly favorable outcomes. The actual versus predicted price curve displayed notable similarity across all models, as illustrated in the example below, showcasing the LSTM GRU model's projection.
 
 <p align="center">
 <img align="center"src="./models_notebooks/images/model.png">
 </p>
+
+A concise summary of the achieved results is presented in the table below, showcasing key metrics for each model. It is noteworthy that while Prophet achieved the highest R-squared (R2) value, indicating strong goodness-of-fit, ARIMA exhibited the best Mean Absolute Error (MAE) and Mean Squared Error (MSE) values, highlighting its accuracy in prediction.
+
 
 | Metric |  ARIMA   |  LSTM  | Prophet | XGBoost |
 |:-------|:--------:|-------:|--------:|--------:|
 | MAE    |   77     |  153   |   125   |  709    |
 | MSE    |   131    |  250   |   157   |  1174   |
 | R2     |  98.86   | 99.69  |  99.88  |  93.08  |
+
+
+These findings underscore the effectiveness of the models in capturing BTC price trends, with each model showcasing unique strengths in specific metrics. This comprehensive evaluation contributes to a robust understanding of the models' capabilities and assists in informed decision-making.
+
