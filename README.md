@@ -18,7 +18,7 @@ Analysis of cryptocurrencies and comparison of several models: ARIMA, XGBoost, L
 </p>
 
 <p align="center">
-<img align="center" width="970" height="180" src="./EDA_notebooks/images/heatmap.png"> 
+<img align="center" src="./EDA_notebooks/images/heatmap.png"> 
 
 </p>
 
@@ -26,7 +26,7 @@ Analysis of cryptocurrencies and comparison of several models: ARIMA, XGBoost, L
 </p>
 
 <p align="center">
-<img align="center" width="970" height="180" src="./EDA_notebooks/images/ma20_100.png"> 
+<img align="center"src="./EDA_notebooks/images/ma20_100.png"> 
 
 </p>
 
@@ -34,6 +34,6 @@ Analysis of cryptocurrencies and comparison of several models: ARIMA, XGBoost, L
 </p>
 
 <p align="center">
-<img align="center" width="970" height="180" src="./EDA_notebooks/images/ma50.png"> 
+<img align="center"  src="./EDA_notebooks/images/ma50.png"> 
 
 </p>
