@@ -66,7 +66,7 @@ The subsequent phase of analysis delved into an in-depth exploratory data analys
 - **open_time**: Opening time of the specified period
 - **open**: Opening price of the trading instrument for the given period
 - **high**: Highest price attained by the trading instrument during the specified period
-- **low****: Lowest price reached by the trading instrument during the specified period
+- **low**: Lowest price reached by the trading instrument during the specified period
 - **close**: Closing price of the trading instrument for the given period
 - **volume**: Total trading volume, representing the quantity of the trading instrument, during the specified period
 - **close_time**: Closing time of the specific period
