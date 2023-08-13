@@ -5,12 +5,12 @@ Analysis of cryptocurrencies and comparison of several models: ARIMA, XGBoost, L
 
 
 <p align="center">
-<img align="center" width="970" height="180" src="./EDA_notebooks/images/10_currencies.png"> 
+<img align="center" src="./EDA_notebooks/images/10_currencies.png"> 
 
 </p>
 
 <p align="center">
-<img align="center" width="970" height="180" src="./EDA_notebooks/images/cum_returns.png"> 
+<img align="center" src="./EDA_notebooks/images/cum_returns.png"> 
 
 </p>
 
