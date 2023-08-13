@@ -27,7 +27,7 @@ The utilization of Adj Close allows for meaningful comparisons between cryptocur
 
 </p>
 
-In the pursuit of enhanced insights, **returns** profitability over a specific period. Furthermore, cumulative returns were calculated to express the overall price change of a cryptocurrency over time.
+In the pursuit of enhanced insights, **returns** were computed, providing a measure of profitability over a specific period. Furthermore, cumulative returns were calculated to express the overall price change of a cryptocurrency over time.
 
 <p align="center">
 <img align="center" src="./EDA_notebooks/images/cum_returns.png"> 
