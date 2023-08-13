@@ -1,6 +1,6 @@
 # Modeling Notebooks
 
-This folders contains the odels' notebooks of the four evaluated models.
+This folder contains the models' notebooks of the 4 evaluated models.
 
 Each notebook can be better viewed in these links:
 
@@ -12,4 +12,4 @@ Each notebook can be better viewed in these links:
 
 - XGBoost: [link](https://nbviewer.org/github/benitomartin/cryptocurrencies/blob/main/models_notebooks/XGBoost_BTC_Binance.ipynb)
 
-The folder images contains images of both Notebooks.
+The folder images contains images of the Notebooks.
