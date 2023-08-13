@@ -1,11 +1,12 @@
 # **CRYPTOCURRENCIES TIME SERIES** :chart_with_upwards_trend:
 
-This repository contains some notebooks with an analysis of 10 cryptocurrencies and a comparison of several models' predictions for ETH and BTC. The following models were compared:
+This repository contains some notebooks with an analysis of 10 cryptocurrencies and a comparison of several models' predictions for BTC. The following models were compared:
+
 - ARIMA
 - XGBoost
 - LSTM
 - Prophet
-- Gradient Boosting. 
+- Gradient Boosting
 
 
 ## Cryptocurrencies Comparison
