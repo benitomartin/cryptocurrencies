@@ -114,3 +114,5 @@ Among the models examined later in the analysis, **ARIMA** was a key focus. This
 <p align="center">
 <img align="center"src="./EDA_notebooks/images/differencing.png">
 </p>
+
+After this EDA the modeling phase started wuth the clean dataset.
