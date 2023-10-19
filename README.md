@@ -1,5 +1,10 @@
 # **CRYPTOCURRENCIES TIME SERIES** :chart_with_upwards_trend:
 
+<p align="center">
+<img align="center" src="./EDA_notebooks/images/bitcoin.jpg"> 
+
+</p>
+
 This repository hosts a collection of notebooks featuring an in-depth analysis of ten cryptocurrencies, along with a comparative study of predictions made by various models specifically for BTC. The following models were meticulously evaluated:
 
 - ARIMA
