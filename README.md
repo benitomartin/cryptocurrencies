@@ -80,7 +80,7 @@ To ensure a comprehensive and accurate dataset, the following actions were taken
 - Identification and handling of missing data points and their corresponding values
 - Utilization of interpolation to fill in the gaps with the mean values
 
-Upon obtaining the complete dataset (saved under `BTCUSDT_final_clean.csv`), the primary focus shifted towards the analysis of the closing prices. It was noted that in both 2020 and 2022, the cryptocurrency market experienced two significant **crashes** attributed to the impact of the COVID pandemic and the collapse of FTX exchange.
+Upon obtaining the complete dataset (saved under `BTCUSDT_final_clean.csv`), the primary focus shifted toward the analysis of the closing prices. It was noted that in both 2020 and 2022, the cryptocurrency market experienced two significant **crashes** attributed to the impact of the COVID pandemic and the collapse of the FTX exchange.
 
 
 <p align="center">
