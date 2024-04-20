@@ -5,12 +5,14 @@
 
 </p>
 
-This repository hosts a collection of notebooks featuring an in-depth analysis of ten cryptocurrencies, along with a comparative study of predictions made by various models specifically for BTC. The following models were meticulously evaluated:
+This repository hosts a collection of notebooks featuring an in-depth analysis of ten cryptocurrencies, along with a comparative study of predictions made by various models specifically for BTC. The following models were evaluated:
 
 - ARIMA
 - XGBoost
 - LSTM GRU
 - Prophet
+
+Feel free to ⭐ and clone this repo 😉
 
 ## :bar_chart: Cryptocurrencies Comparison
 
